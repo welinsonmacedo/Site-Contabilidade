@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container-main {
+    background-image: url(./aseets/288957-fernanda-entregar-ate-dia\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 823px;
+}
+
+#container-header-nav {
+    display: flex;
+    justify-content: left;
+}
+
+#container-nav {
+    display: flex;
+    gap: 21px;
+    padding: 42px 0 0 0;
+    cursor: pointer;
+}
+
+#container-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+#container-header {
+    padding: 38px 137px 0 38px;
+}
+
+#container-header h3 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container-title {
+    font-size: 58px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800px;
+    padding: 443px 262px 230px 65px;
+
+}
+
+#container-title-form {
+    display: flex;
+   
+}
+
+.vis{ visibility:visible;
+    opacity:1;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form h3 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    color: #252B42;
+    padding: 25px 0 20px 0;
+}
+
+#form input {
+    width: 256px;
+    height: 30px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 5px;
+   padding: 5px;
+   margin-bottom: 20px;
+}
+#form textarea{
+    width: 238px;
+    height: 90px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#form button{
+    width: 256px;
+    background-color: #40BB15;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+#container-form{
+    background-color: #FFFFFF;
+    height: 420px;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 124px 0 0 0;
+    visibility:visible;
+    opacity:1;
+    transition:opacity 1s linear;
+}
+#container-service-title{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700px;
+    color:#252B42;
+    margin:40px auto;
+    text-align:center;
+    
+}
+#container-ul-service{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-top: 89px;
+}
+.container-ul ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEF6FF;
+    width: 300px;
+    height: 200px;
+    border-radius: 0 0 10px 10px;
+
+}
+.container-ul li{
+    padding: 5px;
+}
+.container-ul h5{
+    font-size: 16px;
+    font-weight: 700px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #219653;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+}
+#container-upon-title{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700px;
+    color:#FFFFFF;
+    margin:40px auto;
+    text-align:center;
+
+}
+#container-upon{
+    background-color: #1E2844;
+    margin-top: 171px;
+}
+#p-upon{
+    text-align: left;
+   text-rendering: auto;
+   font-size: 28px;
+   color: #FFFFFF;
+   padding-left: 20px;
+   padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+/*responsividade*/
+
+@media (min-width: 2550px){
+    #container-title-form{
+        display: flex;
+        
+    }
+    #container-title-form h1{
+       padding-left:300px;
+    }
+    #container-main {
+        height: 1000px;
+}
+#container-nav a {
+    font-size: 40px;
+    padding-left: 90px;
+}
+    #form h3{
+        font-size: 20px;
+    }
+    #form input{
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    #form label {
+        font-size: 20px;
+    }
+    #container-form{
+        margin-left: 1000px;
+    }
+    #container-ul-service{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #container-ul li{
+        font-size: 50px;
+    }
+}
+@media (max-width: 1440px){
+    #container-title-form h1{
+        font-size: 50px;
+        padding-left: 20px;
+        
+    }
+    #container-title-form{
+        display: flex;
+        gap: 5px;
+    }
+    #container-form{
+    margin-left: 250px;
+    }
+    #form h3{
+        font-size: 20px; 
+    }
+    #container-upon{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    #container-title-form h1{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+    #container-title-form{
+        display: flex;
+        gap: 5px;
+    }
+    #container-title{
+        padding-right: 10px;
+    }
+    #form h3{
+        font-size: 20px; 
+        
+       
+    }
+}
+@media (max-width: 768px){
+    #container-title-form h1{
+        font-size: 40px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    #container-title{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #container-title-form{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+    }
+    #form h3{
+        font-size: 20px; 
+    }
+    #container-form{
+        margin-left: 30px;
+    }
+    #container-ul-service{
+        display: block;
+    }
+    .container-ul h5{
+        width: 240px;
+    }
+    .container-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        padding-left: 250px;
+    }
+    #container-upon{
+        padding: 20px;
+    }
+}
+@media (max-width: 425px){
+    #container-title-form h1{
+        display: block;
+        text-align: center;
+    }
+    #container-header-nav{
+       display: none;
+    }
+    #container-title{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #container-title-form{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    #form h3{
+        font-size: 20px; 
+    }
+    #container-form{
+        display: block;
+        margin: 0 auto;
+
+    }
+    #container-service-title{
+        display: block;
+    }
+    #container-ul-service{
+        display: block;
+    }
+    .container-ul h5{
+        display: block;
+    }
+    .container-ul{
+        display: block;
+        padding: 0;
+       margin: 30px auto;
+       margin-left: 55px;
+    }
+    #container-upon{
+        padding: 20px;
+    }
+    #container-main{
+        width: 100%;
+        height: 100%;
+        background-size: auto;
+    }
+}
+
+
+
